@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 const Home = props => (
 
     <div>
+        {props.message}
         <div>test</div>
         <div className="d-none">
             <h1>Hello, world!</h1>
@@ -26,4 +27,6 @@ const Home = props => (
   
 );
 
-export default connect()(Home);
+export default connect(
+    state => state.counter
+)(Home);

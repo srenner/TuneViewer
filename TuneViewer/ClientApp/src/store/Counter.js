@@ -1,6 +1,6 @@
 const incrementCountType = 'INCREMENT_COUNT';
 const decrementCountType = 'DECREMENT_COUNT';
-const initialState = { count: 0 };
+const initialState = { count: 0, message: 'oh hi' };
 
 export const actionCreators = {
   increment: () => ({ type: incrementCountType }),
