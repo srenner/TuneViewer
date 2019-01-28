@@ -8,7 +8,7 @@ namespace TuneViewer.Models
     public class VersionInfo
     {
         public double FileFormat { get; set; }
-        public double FirmwareInfo { get; set; }
+        public string FirmwareInfo { get; set; }
         public int Pages { get; set; }
         public string Signature { get; set; }
     }

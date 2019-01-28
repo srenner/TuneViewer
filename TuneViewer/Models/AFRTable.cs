@@ -7,6 +7,8 @@ namespace TuneViewer.Models
 {
     public class AFRTable : Base.BaseTable
     {
-        public TableCell[][] Cells { get; set; }
+        //public TableCell[,] Cells { get; set; }
+
+        public double[,] Cells { get; set; }
     }
 }

@@ -11,5 +11,7 @@ namespace TuneViewer.Models
 
 
         public int Cylinders { get; set; }
+
+        public AFRTable AFRTable1 { get; set; }
     }
 }
