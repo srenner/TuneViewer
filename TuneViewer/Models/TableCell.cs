@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace TuneViewer.Models
 {
+    [Obsolete]
     public class TableCell
     {
         public int Row { get; set; }
